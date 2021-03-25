@@ -1,0 +1,95 @@
+.table {
+	text-align: center;
+}
+
+.table>tbody>tr>* {
+	vertical-align: middle;
+}
+
+/* custom */
+.bg-login-image {
+	background: url("http://localhost/pkp/assets/img/login.svg");
+	background-position: center;
+	background-size: cover;
+}
+
+.bg-primary {
+	background-color: #9e4eb1 !important;
+}
+
+.btn-primary {
+	background-color: #6c63ff;
+	border-color: #6c63ff;
+}
+
+.btn-primary:hover {
+	background-color: #5a50ff;
+	border-color: #2653d4;
+}
+
+.btn-danger {
+	background-color: #f54272;
+	border-color: #f54272;
+}
+
+.btn-danger:hover {
+	background-color: #e03f6a;
+	border-color: #e02f5e;
+}
+
+.btn-outline-danger {
+	color: #f54272;
+	border-color: #f54272;
+}
+
+.btn-outline-danger:hover {
+	color: #fff;
+	background-color: #e02f5e;
+	border-color: #e02f5e;
+}
+
+.border-left-primary {
+	border-left: 0.25rem solid #9e4eb1 !important;
+}
+
+.badge-blue {
+	color: #fff;
+	background-color: #2653d4;
+}
+
+.badge-primary {
+	background-color: #9e4eb1;
+}
+
+.jumbotron {
+	position: relative;
+	overflow: hidden;
+}
+
+.jumbotron .container {
+	position: relative;
+	z-index: 2;
+
+	background: rgba(0, 0, 0, 0.2);
+	padding: 2rem;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+}
+
+.jumbotron-background {
+	object-fit: cover;
+	font-family: 'object-fit: cover;';
+	position: absolute;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+}
+
+img.blur {
+	-webkit-filter: blur(4px);
+	filter: blur(4px);
+	filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
+
+}
